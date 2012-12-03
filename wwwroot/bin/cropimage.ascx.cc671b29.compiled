@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Controls/CropImage.ascx" hash="fffffff33c28cd53" filehash="abedae029c7d3c3d" flags="100000" assembly="App_Web_acsbt5it" type="ASP.controls_cropimage_ascx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/CropImage.ascx" />
+        <filedep name="/petsagenda.com/Controls/CropImage.ascx.cs" />
+    </filedeps>
+</preserve>

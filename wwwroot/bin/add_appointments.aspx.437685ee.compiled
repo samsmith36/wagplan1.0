@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/providers/add_appointments.aspx" hash="fffffff33c28cd53" filehash="8a444ad377b6e485" flags="100000" assembly="App_Web_pjp352hb" type="ASP.providers_add_appointments_aspx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/new_CalendarEventsManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/new_CalendarEventsManager.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/new_OfficeAppointments.ascx" />
+        <filedep name="/petsagenda.com/Controls/new_OfficeAppointments.ascx.cs" />
+        <filedep name="/petsagenda.com/providers/add_appointments.aspx" />
+        <filedep name="/petsagenda.com/providers/add_appointments.aspx.cs" />
+        <filedep name="/petsagenda.com/providers/provider_newlook_fullwidth.master" />
+        <filedep name="/petsagenda.com/providers/provider_newlook_fullwidth.master.cs" />
+    </filedeps>
+</preserve>

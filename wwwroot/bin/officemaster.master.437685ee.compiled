@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/providers/OfficeMaster.master" hash="fffffff33c28cd53" filehash="6e37d5337ce6c20c" flags="100000" assembly="App_Web_f5pjtomx" type="ASP.providers_officemaster_master">
+    <filedeps>
+        <filedep name="/petsagenda.com/providers/OfficeMaster.master" />
+        <filedep name="/petsagenda.com/providers/OfficeMaster.master.cs" />
+    </filedeps>
+</preserve>

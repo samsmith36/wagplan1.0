@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/providers/signup.aspx" hash="fffffff33c28cd53" filehash="a1bd43233cbb0294" flags="100000" assembly="App_Web_pjp352hb" type="ASP.providers_signup_aspx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/new_practice.ascx" />
+        <filedep name="/petsagenda.com/Controls/new_practice.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/PracticeImageManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/PracticeImageManager.ascx.cs" />
+        <filedep name="/petsagenda.com/providers/providers_newlook.master" />
+        <filedep name="/petsagenda.com/providers/providers_newlook.master.cs" />
+        <filedep name="/petsagenda.com/providers/signup.aspx" />
+        <filedep name="/petsagenda.com/providers/signup.aspx.cs" />
+    </filedeps>
+</preserve>

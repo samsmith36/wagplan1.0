@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/petsagenda.com/attachmenthandler.ashx" hash="63c7dd7a" filehash="40e587422fc4" flags="110000" assembly="App_Web_jroptqdb" type="attachmenthandler">
+    <filedeps>
+        <filedep name="/petsagenda.com/attachmenthandler.ashx" />
+    </filedeps>
+</preserve>

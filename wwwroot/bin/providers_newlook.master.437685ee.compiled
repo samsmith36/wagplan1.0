@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/providers/providers_newlook.master" hash="fffffff33c28cd53" filehash="67cc619f484a719d" flags="100000" assembly="App_Web_f5pjtomx" type="ASP.providers_providers_newlook_master">
+    <filedeps>
+        <filedep name="/petsagenda.com/providers/providers_newlook.master" />
+        <filedep name="/petsagenda.com/providers/providers_newlook.master.cs" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/petsagenda.com/Controls/Handler.ashx" hash="63c7dd7a" filehash="ffffedd2bcbac8a4" flags="110000" assembly="App_Web_acsbt5it" type="jQueryUploadTest.Handler">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/Handler.ashx" />
+    </filedeps>
+</preserve>

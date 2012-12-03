@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Controls/MultiImageUploadControl.ascx" hash="fffffff33c28cd53" filehash="59d9f67d759908d2" flags="100000" assembly="App_Web_acsbt5it" type="ASP.controls_multiimageuploadcontrol_ascx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/MultiImageUploadControl.ascx" />
+        <filedep name="/petsagenda.com/Controls/MultiImageUploadControl.ascx.cs" />
+    </filedeps>
+</preserve>

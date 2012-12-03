@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Professional.aspx" hash="fffffff33c28cd53" filehash="dcca8924275339ef" flags="100000" assembly="App_Web_obcgolje" type="ASP.professional_aspx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/CreateUser.ascx" />
+        <filedep name="/petsagenda.com/Controls/CreateUser.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/CropImage.ascx" />
+        <filedep name="/petsagenda.com/Controls/CropImage.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/LoginRegister.ascx" />
+        <filedep name="/petsagenda.com/Controls/LoginRegister.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/PopUpOfficeDescription.ascx" />
+        <filedep name="/petsagenda.com/Controls/PopUpOfficeDescription.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalItemRow_new.ascx" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalItemRow_new.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/UploadImage.ascx" />
+        <filedep name="/petsagenda.com/Controls/UploadImage.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/UserProfile.ascx" />
+        <filedep name="/petsagenda.com/Controls/UserProfile.ascx.cs" />
+        <filedep name="/petsagenda.com/MainMaster_New.master" />
+        <filedep name="/petsagenda.com/MainMaster_New.master.cs" />
+        <filedep name="/petsagenda.com/Professional.aspx" />
+        <filedep name="/petsagenda.com/Professional.aspx.cs" />
+    </filedeps>
+</preserve>

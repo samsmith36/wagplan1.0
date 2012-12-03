@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Activate.aspx" hash="fffffff33c28cd53" filehash="fa20eed7e895e7db" flags="100000" assembly="App_Web_jroptqdb" type="ASP.activate_aspx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Activate.aspx" />
+        <filedep name="/petsagenda.com/Activate.aspx.cs" />
+    </filedeps>
+</preserve>

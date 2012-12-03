@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Controls/OfficeAppointments.ascx" hash="fffffff33c28cd53" filehash="3ded1563df25df44" flags="100000" assembly="App_Web_urjmyubu" type="ASP.controls_officeappointments_ascx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/CalendarEventsManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/CalendarEventsManager.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/OfficeAppointments.ascx" />
+        <filedep name="/petsagenda.com/Controls/OfficeAppointments.ascx.cs" />
+    </filedeps>
+</preserve>

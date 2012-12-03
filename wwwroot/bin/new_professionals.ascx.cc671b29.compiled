@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Controls/new_professionals.ascx" hash="fffffff33c28cd53" filehash="225b0d89de5e94ee" flags="100000" assembly="App_Web_acsbt5it" type="ASP.controls_new_professionals_ascx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/new_professionals.ascx" />
+        <filedep name="/petsagenda.com/Controls/new_professionals.ascx.cs" />
+    </filedeps>
+</preserve>

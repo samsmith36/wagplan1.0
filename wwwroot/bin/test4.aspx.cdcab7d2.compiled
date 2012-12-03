@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/test4.aspx" hash="fffffff33c28cd53" filehash="1dce0e9ee8270811" flags="100000" assembly="App_Web_obcgolje" type="ASP.test4_aspx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/CreateUser.ascx" />
+        <filedep name="/petsagenda.com/Controls/CreateUser.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/LoginRegister.ascx" />
+        <filedep name="/petsagenda.com/Controls/LoginRegister.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/PopUpOfficeDescription.ascx" />
+        <filedep name="/petsagenda.com/Controls/PopUpOfficeDescription.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalItemRow_new.ascx" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalItemRow_new.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/UserProfile.ascx" />
+        <filedep name="/petsagenda.com/Controls/UserProfile.ascx.cs" />
+        <filedep name="/petsagenda.com/MainMaster_New.master" />
+        <filedep name="/petsagenda.com/MainMaster_New.master.cs" />
+        <filedep name="/petsagenda.com/test4.aspx" />
+        <filedep name="/petsagenda.com/test4.aspx.cs" />
+    </filedeps>
+</preserve>

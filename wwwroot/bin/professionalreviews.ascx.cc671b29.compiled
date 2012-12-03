@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Controls/ProfessionalReviews.ascx" hash="fffffff33c28cd53" filehash="7ddf3ad572af5809" flags="100000" assembly="App_Web_acsbt5it" type="ASP.controls_professionalreviews_ascx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/ProfessionalReviews.ascx" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalReviews.ascx.cs" />
+    </filedeps>
+</preserve>

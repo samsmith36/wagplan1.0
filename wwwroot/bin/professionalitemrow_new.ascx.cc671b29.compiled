@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Controls/ProfessionalItemRow_new.ascx" hash="fffffff33c28cd53" filehash="a1cf094844153e53" flags="100000" assembly="App_Web_hnva42lx" type="ASP.controls_professionalitemrow_new_ascx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/CreateUser.ascx" />
+        <filedep name="/petsagenda.com/Controls/CreateUser.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/LoginRegister.ascx" />
+        <filedep name="/petsagenda.com/Controls/LoginRegister.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/PopUpOfficeDescription.ascx" />
+        <filedep name="/petsagenda.com/Controls/PopUpOfficeDescription.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalItemRow_new.ascx" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalItemRow_new.ascx.cs" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/petsagenda.com/userprofileservice.asmx" hash="63c7dd7a" filehash="fffff5f189e6b9f9" flags="130000" assembly="App_Code" type="userprofileservice">
+    <filedeps>
+        <filedep name="/petsagenda.com/userprofileservice.asmx" />
+    </filedeps>
+</preserve>

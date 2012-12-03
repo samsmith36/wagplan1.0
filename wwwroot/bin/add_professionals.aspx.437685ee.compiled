@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/providers/add_professionals.aspx" hash="fffffff33c28cd53" filehash="72e3b2b557d620cd" flags="100000" assembly="App_Web_pjp352hb" type="ASP.providers_add_professionals_aspx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/CropImage.ascx" />
+        <filedep name="/petsagenda.com/Controls/CropImage.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/MultiImageUploadControl.ascx" />
+        <filedep name="/petsagenda.com/Controls/MultiImageUploadControl.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/new_OfficeProfile.ascx" />
+        <filedep name="/petsagenda.com/Controls/new_OfficeProfile.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalImageManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalImageManager.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalReviews.ascx" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalReviews.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/SpecialsImageManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/SpecialsImageManager.ascx.cs" />
+        <filedep name="/petsagenda.com/providers/add_professionals.aspx" />
+        <filedep name="/petsagenda.com/providers/add_professionals.aspx.cs" />
+        <filedep name="/petsagenda.com/providers/providers_newlook.master" />
+        <filedep name="/petsagenda.com/providers/providers_newlook.master.cs" />
+    </filedeps>
+</preserve>

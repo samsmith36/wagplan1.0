@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/providers/Login.aspx" hash="fffffff33c28cd53" filehash="6b2a107190b184c1" flags="100000" assembly="App_Web_f5pjtomx" type="ASP.providers_login_aspx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/CreateUser.ascx" />
+        <filedep name="/petsagenda.com/Controls/CreateUser.ascx.cs" />
+        <filedep name="/petsagenda.com/providers/Login.aspx" />
+        <filedep name="/petsagenda.com/providers/Login.aspx.cs" />
+    </filedeps>
+</preserve>

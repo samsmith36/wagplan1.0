@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/Controls/PracticeImageManager.ascx" hash="fffffff33c28cd53" filehash="3b5129c15b4bebfe" flags="100000" assembly="App_Web_acsbt5it" type="ASP.controls_practiceimagemanager_ascx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/PracticeImageManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/PracticeImageManager.ascx.cs" />
+    </filedeps>
+</preserve>

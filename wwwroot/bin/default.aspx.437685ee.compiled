@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/petsagenda.com/providers/Default.aspx" hash="fffffff33c28cd53" filehash="65f6d7abea3ad106" flags="100000" assembly="App_Web_pjp352hb" type="ASP.providers_default_aspx">
+    <filedeps>
+        <filedep name="/petsagenda.com/Controls/CalendarEventsManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/CalendarEventsManager.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/CropImage.ascx" />
+        <filedep name="/petsagenda.com/Controls/CropImage.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/MultiImageUploadControl.ascx" />
+        <filedep name="/petsagenda.com/Controls/MultiImageUploadControl.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/OfficeAppointments.ascx" />
+        <filedep name="/petsagenda.com/Controls/OfficeAppointments.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/OfficeInfo.ascx" />
+        <filedep name="/petsagenda.com/Controls/OfficeInfo.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/OfficeProfile.ascx" />
+        <filedep name="/petsagenda.com/Controls/OfficeProfile.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/PracticeImageManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/PracticeImageManager.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalImageManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalImageManager.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalReviews.ascx" />
+        <filedep name="/petsagenda.com/Controls/ProfessionalReviews.ascx.cs" />
+        <filedep name="/petsagenda.com/Controls/SpecialsImageManager.ascx" />
+        <filedep name="/petsagenda.com/Controls/SpecialsImageManager.ascx.cs" />
+        <filedep name="/petsagenda.com/providers/Default.aspx" />
+        <filedep name="/petsagenda.com/providers/Default.aspx.cs" />
+        <filedep name="/petsagenda.com/providers/OfficeMaster.master" />
+        <filedep name="/petsagenda.com/providers/OfficeMaster.master.cs" />
+    </filedeps>
+</preserve>
