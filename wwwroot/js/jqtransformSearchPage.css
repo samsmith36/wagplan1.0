@@ -1,0 +1,170 @@
+form.jqtransformdone label{
+	margin-top:2px;
+	margin-right: 4px;
+	display: block;
+	float:left;
+}
+form.jqtransformdone div.rowElem{
+	clear:both;
+	padding:4px 0px;
+}
+
+/* -------------
+ * Inputs
+ * ------------- */
+.jqTransformInputWrapper {
+	background: transparent url(img/input/input_text_left.gif) no-repeat left top;
+	height: 15px;
+	padding: 0px;
+	float:left;
+}
+
+.jqTransformInputInner {
+	background: transparent url(img/input/input_text_right.gif) no-repeat top right;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.jqTransformInputInner div {
+	height: 15px;
+	margin:0px 0px 0px 4px;
+}
+
+.jqTransformInputInner div input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 9px;
+	vertical-align: middle;
+	color:#48A200;
+	height: 16px;
+	border: none;
+	padding: 2px 0px 0px 1px;
+	margin: 0px;
+	background:transparent;
+}
+
+/*  IE6 */
+* html .jqTransformInputInner div input {
+	padding: 3px 0 0 0;
+	margin: 0 0 0 -8px;
+	height:12px;
+}
+/* Ie7 */
+*+ html .jqTransformInputInner div input {
+	padding: 3px 0 0 0;
+	margin-left:-10px;
+	height:12px;
+}
+
+/*hover*/
+.jqTransformInputWrapper_hover{ background-position: left -31px ;}
+.jqTransformInputWrapper_hover div.jqTransformInputInner{ background-position: right -31px ;}
+
+/*focus*/
+.jqTransformInputWrapper_focus{ background-position: left -62px ;}
+.jqTransformInputWrapper_focus div.jqTransformInputInner{ background-position: right -62px ;}
+
+
+
+.jqTransformSafari .jqTransformInputInner div {
+	position: relative;
+	overflow: hidden;
+	margin:0px 8px;
+}
+.jqTransformSafari .jqTransformInputInner div input {
+	background-color: none;
+	position: absolute;
+	top: -5px;
+	left: -1px;
+	height: 21px; 
+	padding-left: 2px;
+}
+
+
+
+
+
+/* -------------
+ * Selects
+ * ------------- */
+.jqTransformSelectWrapper {
+	width: 46px;
+	position:relative;
+	height: 55px;
+	background: url(img2/input.gif) no-repeat top left;
+	float:left;
+}
+
+.jqTransformSelectWrapper div span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+color:#48A200;
+	float: none;
+	position: absolute;
+	&white-space: nowrap;
+	top: 2px;
+	left: 5px;
+	height: 14px;
+	line-height: 7px;
+	padding: 4px 0 0 3px;
+	overflow: hidden;
+	cursor:pointer;
+/*	border: 1px solid #CCCCCC;*/
+/*	border-right: none;*/
+}
+
+.jqTransformSelectWrapper  a.jqTransformSelectOpen {
+	display: block;
+	position: absolute;
+	right: 3px;
+	top: 0px;
+	width: 15px;
+	height: 17px;
+	background: url(img2/bdropdown.gif) no-repeat center center;
+	outline: 0px;
+}
+
+.jqTransformSelectWrapper ul {
+	position: absolute;
+	width: 21px;
+	top: 16px;
+	left: 0px;
+	list-style: none;
+	background-color: #FFF;
+	border: solid 1px #CCC;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	height: 75px;
+	overflow: auto;
+	overflow-y: auto;
+	z-index:10;
+}
+
+.jqTransformSelectWrapper ul a {
+	display: block;
+	padding: 2px;
+	text-decoration: none;
+	color:#333;
+	background-color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#48A200;
+	text-indent: 3px;
+}
+
+.jqTransformSelectWrapper ul a.selected {
+	background: #FFFFFF;
+	color: #48A200;
+}
+
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {
+	background:#48A200;
+	color: #fff;
+}
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {display: none;}

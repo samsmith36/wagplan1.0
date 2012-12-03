@@ -1,0 +1,63 @@
+﻿#client_main_container{background-color:#ecfad7; margin:10px;display:block;float:left;width:99%;}
+.left_bar{width:240px;display:block;float:left;}
+.btn_addclient{float:left; cursor:pointer;  display:block; border:none; width:172px;height:53px;background-image:url(../img/btn_addclient.gif);background-position:center;background-repeat:no-repeat;margin:25px 34px 20px 34px;}
+.filtertitle{font-family:Arial; font-weight:bold; font-size:16px;display:block;float:left;margin:5px 34px;}
+
+.filter_container{border:#9dd883 solid;border-width:1px 0px;display:block;float:left;background-color:#d9f6ad;width:240px;padding:10px 0px;}
+.filter_container label{width:176px;padding:4px 34px;font-family:Arial;  font-size:15px;display:block;}
+.filter_container .filtertxt{width:180px;font-family:Arial;  font-size:15px;display:block;}
+.filter_container .btn_filter{float:left; cursor:pointer;  display:block; border:none; width:108px;height:36px;background-image:url(../img/btn_filter.gif);background-position:center;background-repeat:no-repeat;margin:25px 66px;}
+.filter_container .filter_clear{background-image:url(../img/btn_clear_filter.gif);}
+
+.filter_container .jqTransformInputWrapper{margin-left:24px; background-image:url(../img/client_input_text_left.gif);}
+.filter_container .jqTransformInputWrapper .jqTransformInputInner {float:left; display:block;width:100%;background-image:url(../img/client_input_text_right.gif);}
+.filter_container .jqTransformInputWrapper .jqTransformInputInner div{margin-left:4px;}
+
+.tblcontent{display:inline-block;float:left;margin:10px 0px;}
+
+.grid_clients{background:#fff;}
+.grid_clients, .grid_clients tr th , .grid_clients tr td{border:solid 1px #eaeaea;}
+.grid_clients tr th{background:url(../img/client_tbl_header.gif) repeat-x top;height:34px;font-family:Arial;  font-size:13px;}
+.grid_clients tr td{height:34px;}
+.grid_clients tr:hover{background-color:#ecf7e9 !important;}
+.emmptygrddata{ width:100%;display:block;float:left;text-align:center;}
+
+.ui-dialog-title{font-family:Arial;font-size:20px;font-weight:bold;color:#6dcb21;}
+.addclient_dlg_contanet {display:block;float:left;width:653px;}
+.addclient_dlg_contanet span.title{display:block;width:633px;color:#6dcb21;font-family:Arial;font-size:13px;font-weight:bold;padding:10px;background-color:#ecfad7;clear:both;}
+.addclient_dlg_contanet div.ctrl{display:inline-block;width:326px;float:left;margin:6px 0px;}
+.addclient_dlg_contanet div.ctrl > .lbl{padding-top:10px;width:115px; font-family:Arial;font-size:13px;}
+.addclient_dlg_contanet div.ctrl > .txt{width:190px;}
+.addclient_dlg_contanet div.ctrl > span.valspan{padding-top:10px;float:left;}
+.addclient_dlg_contanet div.note{width:653px;clear:both;}
+.addclient_dlg_contanet div.uploadatt , .addclient_dlg_contanet div.valsummary{width:100%;float:left;display:block;}
+.addclient_dlg_contanet div.valsummary ul li{width:40%; float:left;}
+
+.addclient_dlg_contanet div.ctrl > .jqTransformSelectWrapper{ background: url("../img/leftselectors_bg_transparent.gif") no-repeat scroll left top transparent;  width: 197px !important;}
+
+.addclient_dlg_contanet div.ctrl > .jqTransformSelectWrapper a.jqTransformSelectOpen {background: url("../img/leftselectors_bg_right.gif") no-repeat scroll center center transparent;}
+
+.addclient_dlg_contanet div.uploadatt div{float:left;}
+
+ul.attachmentlist{   display: inline-block;
+    float: left;
+    margin: 0;
+    padding-left: 10px;
+    width: 405px}
+
+.attachmentlist li{padding:0 2px; width:30px; height:39px; float:left; display:inline-block;}
+
+.btnattachmentdel
+{
+    display: block;
+    width: 30px;
+    height: 12px;
+    background-image: url('../../img/icon_delete.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+.petphotoup{ width:30px; height:28px; list-style:none;}
+.petrecordoup{ width:30px; height:28px;}  
+

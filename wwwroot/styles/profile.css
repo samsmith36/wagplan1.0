@@ -1,0 +1,53 @@
+/* CSS Document */
+
+#drpic {
+float:left;
+width:52px;
+border:1px solid #CCCCCC;
+padding:2px;
+}
+
+#drdesc {
+float:left;
+margin-left:10px;
+width:200px;
+}
+
+.drname {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:#0082cb;
+}
+
+.deftext {
+position:absolute;
+margin-left:1px;
+margin-top:5px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+}
+
+#below {
+float:left;
+margin-top:90px;
+margin-left:-267px;
+width:300px;
+height:300px;
+}
+
+.greentext {
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+color:#91c728;
+}
+
+.deftext2 {
+margin-left:1px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+line-height:15px;
+}

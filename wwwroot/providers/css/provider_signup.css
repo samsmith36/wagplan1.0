@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.green-lable{text-decoration:none;font-family: "VAGRound";color:#3f8e01;font-size:16px;}
+
+.content{width:1020px;margin:10px auto;background-color:#78b04d;padding-bottom:15px;}
+.content .wiardmenu{list-style:none;padding:0px;margin:0px;background-color:#4a4a4a;border:#78b04d solid;border-width:0px 0px 1px 0px;}
+.content .wiardmenu li{display:table-cell;padding:18px 34px 18px 20px;border:none;z-index:1000;margin:0px;}
+.content .wiardmenu li.second{background-image: url("../img/provider_wizard_menu.gif");
+    background-position: right center;
+    background-repeat: no-repeat;}
+/*.content .wiardmenu li:hover ,*/.content .wiardmenu li.selected{background-color:#78b04d;background-image:url(../img/provider_wizard_menu_hover.gif);background-repeat:no-repeat;background-position:right top;}
+.content .wiardmenu li a{text-decoration:none;font-family: "VAGRound";color:#FFF;font-size:21px; width:100%;}
+
+.container{margin:0px 5px 10px 5px; background-color:#FFF;border:#3a7f04 1px solid;padding:10px;}
+.container label{ text-align: right; display:block;height:32px; width:140px; padding-right:35px;margin-right:5px; background-image:url(../img/label_right_bg.gif);background-position:right center;background-repeat:no-repeat;}
+.container .textbox{width:280px;}
+.left-half{width:494px;min-height:570px; background-image:url(../img/center_separater.gif);background-position:right center;background-repeat:no-repeat;}
+.right-half{width:494px;float:right; background-image:url(../img/add_new_practice_right_bg.gif);background-position:center;background-repeat:no-repeat;}
+.left-half table tr td{padding-top: 10px;}
+
+.btngotostep23{margin-left:746px; cursor:pointer;  display:block; border:none; width:222px;height:34px;background-image:url(../img/gotostep_2_3.gif);background-position:center;background-repeat:no-repeat;}
+
+.clspracticetypes tr td label{width:130px;background-image:url('');font-family: "Verdana"; font-size:12px;padding:2px 0px 0px; height:15px; text-align:left;}
+
+.clspracticetypes tr td span.jqTransformCheckboxWrapper{ margin-top:0px;margin-right:2px;}
+
+
+.container label.errormsg{ width:435px;background-image:url(''); color:Red; text-align:left;height:auto !important; font-family: "Verdana"; font-size:11px;}
+.container label.errormsg ul li{width:195px;  float: left;    list-style: disc inside none;}
+
+
+.container .valid_span{    padding-top: 8px; line-height:30px;}
+
+.cls_PracticeImageManager{width:293px !important;}
+.cls_PracticeImageManager .mesage{width:293px;display:block; font-family: "Verdana"; font-size:13px;}
+.cls_PracticeImageManager .btnUpload{ font-family: "VAGRound";color:#FFF;font-size:13px; background-color:#3f8e01;height:29px;text-decoration:none; padding: 5px 2px;}
+.cls_PracticeImageManager .fileup_PracticeImageManager{ border:none;}
+

@@ -1,0 +1,457 @@
+/* CSS Document */
+
+body {
+background-color:#FFFFFF;
+overflow-x:hidden;
+margin: 10px auto 0px auto;
+}
+
+#cen {
+width:674px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+
+#cen img.logo {
+position: relative;
+margin-top: 20px;
+margin-left: 0px;
+}
+
+#cen img.tbar {
+position: relative;
+margin-top: 0px;
+}
+
+#cen img.im {
+z-index:1;
+position: relative;
+}
+
+#cen #win {
+background-color:#FFFFFF;
+position:relative;
+width: 674px;
+height: 204px;
+background-image:url('../elements2/findwin.gif');
+}
+
+#win img {
+margin-left: 16px;
+margin-top: 20px;
+}
+
+#win .log {
+background:url('../elements/blogin.gif') no-repeat;
+cursor:pointer;
+width: 81px;
+height: 35px;
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: 15px;
+margin-top: -10px;
+border:none;
+}
+
+#win #inp {
+margin-left:135px;
+margin-top: -35px;
+width: 388px;
+height: 35px;
+/*background-image:url('../elements/input.gif');*/
+}
+
+#win #inp2 {
+margin-left:135px;
+margin-top: -34px;
+width: 388px;
+height: 35px;
+background-image:url('../elements/input.gif');
+}
+
+#win .itxt {
+border: 0px;
+position: absolute;
+margin-top: 5px;
+margin-left: 10px;
+width: 350px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color:#48A200;
+
+}
+
+#win .uptxt {
+text-align:center;
+position: relative;
+display: block;
+margin-left: 20px;
+margin-top: -20px;
+
+font-size: 18px;
+width: 100px;
+font-weight: bolder;
+}
+
+#footer {
+height: 170px;
+width: 100%;
+overflow-x:hidden;
+z-index:0;
+}
+
+#footer2 {
+position: relative;
+margin-left:-10px;
+margin-top:20px;
+height: 170px;
+width: 105%;
+overflow-x:hidden;
+z-index:0;
+}
+
+#left .inl {
+display:inline;
+}
+
+.days {
+
+font-size: 8px;
+color:#333333;
+text-indent:0px;
+line-height:1px;
+margin-left:2px;
+}
+
+#left {
+float:left;
+display: block;
+margin-left: 3%;
+}
+
+#wintop {
+background-image:url('../elements2/reftop.gif');
+width:250px;
+height:33px;
+}
+
+
+
+
+#winbodyt {
+background-image:url('../elements2/bgwins.gif');
+width:250px;
+height:5px;
+}
+
+#winbodyb {
+background-image:url('../elements2/resbot.gif');
+width:250px;
+height:7px;
+}
+
+#winbody {
+background-image:url('../elements2/bgwins.gif');
+width:239px;
+}
+
+#winbody .gline {
+margin-top:8px;width:228px;height:7px
+}
+
+#winbody .bigtext {
+margin-top:4px;
+color:#555555;
+
+font-size:15px;
+font-weight:bold;
+float: left;
+}
+
+#winbody .smalltext {
+margin-top:10px;
+color:#555555;
+
+font-size:11px;
+font-weight:bold;
+}
+
+#right {
+padding-left:2px;
+padding-right:2px;
+padding:2px;
+border:2px solid;
+border-color:#48a200;
+border-top:0px;
+}
+
+#reswin {
+width:693px;
+height:33px;
+background-image:url('../elements2/restop.gif');
+}
+
+#reswin .tres {
+position:absolute;
+
+font-size:17px;
+line-height:23px;
+font-weight:bold;
+color:#e2ffa9;
+margin-left:100px;
+margin-top:6px;
+}
+
+.tdh {
+	background-color:#F1F1F1;
+	
+	font-size:10px;
+	color:#656565;
+	text-align:left;
+	padding-right:5px;
+	padding-left:5px;
+	border-right:1px solid;
+	border-color:#CCCCCC;
+	border-bottom: solid 3px #91C728;
+	border-top:solid 2px #F1F1F1;
+	height:35px;
+}
+
+.td1 {
+height:100px;
+background-color:#DAECCC;
+
+font-size:10px;
+color:#656565;
+font-weight:bold;
+text-align:left;
+padding-right:5px;
+padding-left:5px;
+border-right:1px solid;
+border-top:2px solid;
+border-color:#FFFFFF;
+vertical-align:top;
+}
+
+.td1a {
+height:100px;
+background-color:#DAECCC;
+
+font-size:10px;
+color:#656565;
+font-weight:bold;
+text-align:center;
+padding-right:5px;
+padding-left:5px;
+border-right:1px solid;
+border-top:2px solid;
+border-color:#FFFFFF;
+vertical-align:middle;
+}
+
+
+.td2 {
+height:100px;
+background-color:#EBF5E3;
+
+font-size:10px;
+color:#656565;
+font-weight:bold;
+text-align:left;
+padding-right:10px;
+padding-left:5px;
+border-right:1px solid;
+border-top:2px solid;
+border-color:#FFFFFF;
+vertical-align:top;
+}
+
+.td2a {
+height:100px;
+background-color:#EBF5E3;
+
+font-size:10px;
+color:#656565;
+font-weight:bold;
+text-align:center;
+padding-right:10px;
+padding-left:5px;
+border-right:1px solid;
+border-top:2px solid;
+border-color:#FFFFFF;
+vertical-align:middle;
+}
+
+.dpic {
+margin-left:5px;
+margin-top:2px;
+}
+
+.dname {
+
+font-size:11px;
+color:#0082CB;
+text-align:left;
+line-height:15px;
+cursor:pointer;
+text-decoration:underline;
+}
+
+.dname a:link, .dname a:active, .dname a:visited {
+color:#0082CB;
+text-decoration:none;
+text-decoration:underline;
+}
+
+.dname a:hover {
+color:#4199CC;
+text-decoration:underline;
+}
+
+.ddesc {
+
+font-size:10px;
+color:#575757;
+line-height:15px;
+}
+
+.dhour {
+
+font-size:10px;
+color:#575757;
+line-height:15px;
+text-decoration:underline;
+display:block;
+text-align:center;
+}
+
+.dhour a:link, .dhour a:active, .dhour a:visited, .dhour a:hover {
+
+font-size:10px;
+color:#575757;
+line-height:15px;
+text-decoration:underline;
+}
+
+#bigdiv {
+width:1000px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+#reswin2 {
+font-size:8px;
+float:left;
+position:relative;
+margin-left:10px;
+width:66px;
+height:33px;
+margin-top:9px;
+}
+
+#infowin {
+background-color:#FFFFFF;
+position:absolute;
+visibility:hidden;
+border:2px solid #48a200;
+width:320px;
+height:350px;
+margin-left:50px;
+margin-top:50px;
+z-index:13;
+}
+
+#infowin .close {
+position:absolute;
+margin-top:5px;
+margin-left:295px;
+}
+#appwin {
+background-color:#FFFFFF;
+position:absolute;
+visibility:hidden;
+border:2px solid #48a200;
+width:370px;
+height:350px;
+margin-left:50px;
+margin-top:50px;
+z-index:13;
+}
+
+#appwin .close {
+position:absolute;
+margin-top:5px;
+margin-left:345px;
+}
+
+
+
+#iw {
+width:320px;
+height:350px;
+}
+
+#signwin {
+background-color:#FFFFFF;
+position:absolute;
+visibility:hidden;
+border:2px solid #666666;
+z-index:13;
+right:15px;
+padding:10px;
+}
+
+#signwin .close {
+position:absolute;
+margin-top:5px;
+margin-left:295px;
+}
+
+#iw2 {
+width:190px;
+height:220px;
+}
+
+#accwin {
+background-color:#FFFFFF;
+position:absolute;
+visibility:hidden;
+border:2px solid #666666;
+width:190px;
+height:340px;
+margin-left:50px;
+margin-top:50px;
+z-index:13;
+}
+
+#accwin .close {
+position:absolute;
+margin-top:5px;
+margin-left:295px;
+}
+
+#iw3 {
+width:190px;
+height:340px;
+}
+
+.filter select, .filter input
+{
+	float: right;
+	margin-right:11px;
+	margin-top: 4px;
+	width: 142px;
+}
+
+.filter input
+{
+	width: 146px;
+}
+
+#signwin table td.title
+{
+}

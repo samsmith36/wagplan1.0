@@ -1,0 +1,130 @@
+﻿.container .profile{float:left;}
+.bar{color: #3F8E01;
+    font-family: "VAGRound";}
+
+.container .profile .bar {float:left; width:100px; display:block; background-image:url(../img/biglabel_right_bg.gif);background-position:right center;background-repeat:repeat-Y; height: 32px; margin-right: 5px; padding-right: 35px; text-align: right;
+                         /* .greenlabl*/
+                         color: #3F8E01;
+    font-family: "VAGRound";
+    font-size: 16px;
+    text-decoration: none;
+    clear:both;
+                margin-top:35px;         }
+                         
+.cls_basicinfo .jqTransformInputWrapper{margin-bottom:10px;}
+.cls_basicinfo > div{display:block;float:left;}
+.cls_basicinfo > div > span{line-height:25px; cursor:pointer;}
+.right_top_image{ width:535px;height:185px;display:inline-block;float:left;margin-left:10px;}
+.right_top_image img{max-width:535px;margin-bottom:40px;}
+.right_top_image span{display:inline-block;width:110px;}
+
+.additional_pic .bar{}
+
+.mainimage{max-height:185px;max-width:545px;}
+
+.btn{font-family: "VAGRound";color:#FFF;font-size:13px; background-color:#3f8e01;height:29px;text-decoration:none; padding: 5px 20px;border:none;}
+
+.visitreasons .bar{float:left; width:95px; display:block;  height: 470px; margin-right: 5px; padding-right: 35px; text-align: right;
+                         /* .greenlabl*/
+                         color: #3F8E01;
+    font-family: "VAGRound";
+    font-size: 16px;
+    text-decoration: none;
+    clear:both;
+               }
+               
+.lable-with-grnarrow   {color: #3F8E01;
+    font-family: "VAGRound";
+    font-size: 15px;
+    text-decoration: none;
+    text-align:left !important;
+    background-image:url(../img/lable_front_bg.gif) !important; background-position:left center !important;background-repeat:no-repeat !important;
+    padding-left:15px !important;
+    height:17px  !important;
+    }
+.desc2{width:840px;display:inline-block;background-image:url(../img/biglabel_right_bg.gif);background-position:left center;background-repeat:repeat-Y;padding-left:10px;}    
+.visitreasons_contentcontainer
+{
+ display: inline-block;
+    float: left;
+    margin: 0 0 15px;
+    min-height: 210px;
+    padding: 0 10px;
+    width: 370px;
+ 
+    }    
+    
+.visitreasons_contentcontainer div{display:block;}          
+.visitreasons_contentcontainer div span.checkboxes {  display: inline-block;
+    float: left;}   
+    
+.visitreasons_contentcontainer div .jqTransformSelectWrapper    {width:85px;}
+.visitreasons_contentcontainer div span.checkboxes label  
+{
+     background-image: url("");
+    font-family: "Verdana";
+    font-size: 11px;
+    padding:8px 5px 0px 25px;
+    text-align: left;
+    width: 220px;
+    height:auto;}   
+.visitreasons_contentcontainer div div{float:left;}
+.visitreasons .btn_container{display:inline-block;width:840px;}
+
+
+
+.text-area-container > div{margin-top:35px;}
+
+.text-area-container .bar{float:left; width:95px; display:block;height: 32px; margin-right: 5px; padding-right: 35px; text-align: right; color: #3F8E01;
+    font-family: "VAGRound";
+    font-size: 16px;
+    text-decoration: none;
+    clear:both;}
+
+.text-area-container div div.desc2 div table{width:820px;margin:0px;padding:0px;}
+
+.text-area-container div div.desc2 div table tr td#jqTransformTextarea-ml, .text-area-container div div.desc2 div table tr td#jqTransformTextarea-mm, .text-area-container div div.desc2 div table tr td#jqTransformTextarea-mr, .text-area-container div div.desc2 div table tr td#jqTransformTextarea-tl, .text-area-container div div.desc2 div table tr td#jqTransformTextarea-tm, .text-area-container div div.desc2 div table tr td#jqTransformTextarea-tr, .text-area-container div div.desc2 div table tr td#jqTransformTextarea-bl, .text-area-container div div.desc2 div table tr td#jqTransformTextarea-bm, .text-area-container div div.desc2 div table tr td#jqTransformTextarea-br{background-image:url("");}
+
+.btnUpload{ font-family: "VAGRound";color:#FFF;font-size:13px; background-color:#3f8e01;height:29px;text-decoration:none; padding: 5px 2px;}
+
+
+.notification_container{margin-top:15px;}
+.notification_container .bar{float:left; width:95px; display:block;height: 32px; margin-right: 5px; padding-right: 35px; text-align: right; color: #3F8E01;
+    font-family: "VAGRound";
+    font-size: 16px;
+    text-decoration: none;
+    clear:both;}
+    
+    
+    
+.notification_container .desc2 span label , .notification_container .desc2 label     {    background-image: url("");
+    font-family: "Verdana";
+    font-size: 11px;
+    height: 30px;
+    padding: 8px 5px 0 25px;
+    text-align: left;
+    width: 220px;}
+    
+.bgred{background-color:Red; font-size: 20px;
+    padding: 5px 10px;}    
+.cover_image_panel .bar{   background-image: url("") !important; margin-top:0px !important;  float:left; width:95px; display:block;height: 32px; margin-right: 5px; padding-right: 35px; text-align: right; color: #3F8E01;
+    font-family: "VAGRound";
+    font-size: 16px;
+    text-decoration: none;
+    clear:both;}
+    
+.CoverImagePanel img{width:988px;}
+
+
+.btngotostep33 {
+    background-image: url("../img/gotostep_3_3.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    display: inline;
+    height: 34px;
+    margin-left: 560px;
+    width: 222px;
+    
+}

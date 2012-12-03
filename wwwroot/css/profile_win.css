@@ -1,0 +1,353 @@
+﻿
+/* -------------
+ * Selects
+ * ------------- */
+div#tabs  .jqTransformSelectWrapper {
+	width: 46px;
+	position:relative;
+	height: 35px;
+	background: url(img2/input.gif) no-repeat top left;
+	float:left;
+	border:none;
+}
+
+div#tabs  .jqTransformSelectWrapper div span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+color:#48A200;
+	float: none;
+	position: absolute;
+	white-space: nowrap;
+	top: 2px;
+	left: 5px;
+	height: 31px;
+	line-height: 15px;
+	padding: 8px 0 0 7px;
+	overflow: hidden;
+	cursor:pointer;
+	/*border: 1px solid #CCCCCC;*/
+/*	border-right: none;*/
+}
+
+div#tabs  .jqTransformSelectWrapper  a.jqTransformSelectOpen {
+	display: block;
+	position: absolute;
+	right: 3px;
+	top: 0px;
+	width: 31px;
+	height: 35px;
+	background: url(img2/bdropdown.gif) no-repeat center center;
+	outline: 0px;
+}
+
+div#tabs .jqTransformSelectWrapper ul {
+	position: absolute;
+	width: 43px;
+	top: 33px;
+	left: 0px;
+	list-style: none;
+	background-color: #FFF;
+	border: solid 1px #CCC;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	overflow: auto;
+	overflow-y: auto;
+	z-index:10;
+}
+
+div#tabs  .jqTransformSelectWrapper ul a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color:#333;
+	background-color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:#48A200;
+	text-indent: 6px;
+}
+
+div#tabs  .jqTransformSelectWrapper ul a.selected {
+	background: #FFFFFF;
+	color: #48A200;
+}
+
+div#tabs  .jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {
+	background:#48A200;
+	color: #fff;
+}   
+
+
+div#tabs > div {background-image:url('../img/userprofile/up_tab_bg.png');background-position:bottom left;background-repeat:no-repeat; padding-bottom:10px !important; }
+div#tabs > div#tabs-1,div#tabs > div#tabs-1-1,div#tabs > div#tabs-3,div#tabs > div#tabs-4,div#tabs > div#tabs-5,div#tabs > div#tab-6 { min-height:475px; max-height: 525px; overflow:auto;}
+div#tabs > div#tabs-3,div#tabs > div#tabs-4 {max-height: 481px !important;}
+
+div#tabs ul.navi{border:none;}
+div#tabs ul.navi li{ width:119px;height:115px;border:none;margin:0px;text-align:center;background-position:top center;background-repeat:no-repeat;}
+div#tabs ul.navi li a{float:none;padding:0px;width:119px;height:115px; cursor:pointer;display:block;}            
+/*wner-profile*/
+div#tabs ul.navi li#owner-profile{background-image:url('../img/userprofile/owner_prfile.jpg'); }    
+div#tabs ul li#owner-profile:hover, div#tabs ul li#owner-profile.ui-state-active{ background-image:url('../img/userprofile/owner_prfile_hover.jpg'); }    
+/*pet-info*/
+div#tabs ul.navi li#pet-info{background-image:url('../img/userprofile/petinfo.jpg'); }    
+div#tabs ul.navi li#pet-info:hover , div#tabs ul li#pet-info.ui-state-active{ background-image:url('../img/userprofile/petinfo_hover.jpg'); }    
+/*appoinments*/
+div#tabs ul.navi li#appoinments{background-image:url('../img/userprofile/appoinments.jpg'); }    
+div#tabs ul.navi li#appoinments:hover, div#tabs ul li#appoinments.ui-state-active{ background-image:url('../img/userprofile/appoinments_hover.jpg'); } 
+/*reviews*/
+div#tabs ul.navi li#reviews{background-image:url('../img/userprofile/reviews.jpg'); }    
+div#tabs ul.navi li#reviews:hover, div#tabs ul li#reviews.ui-state-active{ background-image:url('../img/userprofile/reviews_hover.jpg'); } 
+/*messages*/
+div#tabs ul.navi li#messages{background-image:url('../img/userprofile/message.jpg'); }    
+div#tabs ul.navi li#messages:hover, div#tabs ul li#messages.ui-state-active{ background-image:url('../img/userprofile/message_hover.jpg'); } 
+/*share*/
+div#tabs ul.navi li#share{background-image:url('../img/userprofile/share.jpg'); }    
+div#tabs ul.navi li#share:hover, div#tabs ul li#share.ui-state-active{ background-image:url('../img/userprofile/share_hover.jpg'); } 
+
+
+div#ctl00_UserProfile_accwin.ui-dialog-content{padding:0px;}
+div#tabs.ui-tabs .ui-tabs-panel{padding:0px;}
+
+.elem .title {
+	background-color: #ecfad7;
+	color:#6dcb21;
+	font-size:13px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding:8px;
+	margin:0px 0px 5px 0px;
+}
+
+.deftext {
+    color: #333333;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 15px;
+    width: 140px;
+}
+
+.up-checkbox{    display: inline-block;
+    padding: 5px 30px;}
+.up-checkbox label{    
+    display: inline-block;
+    float: left;
+  
+    padding: 5px 0 0 10px;}
+    
+ .action-button{margin-right:30px;}
+
+
+div#tabs .jqTransformInputInner div input
+{
+        background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #48A200;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    height: 31px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0px;
+    vertical-align: middle;
+    width:187px;
+    padding-left:2px;
+    }
+    
+div#tabs .up_dropdown {
+    
+    width: 160px;height:auto;
+}    
+
+
+
+div#tabs .jqTransformSelectWrapper {
+    background: url("../img/input_185.gif") no-repeat scroll left top transparent;
+   
+}
+
+div#tabs .jqTransformSelectWrapper ul{ 
+       background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: none;
+    height: auto;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    width: 43px;
+    z-index: 10;
+}
+
+div#tabs.jqtransformdone .jqTransformTextarea textarea.add_a_note
+{
+     height: 60px;
+    width: 545px;
+    }
+ 
+ div#tabs #informationpanel   
+{
+    display:none;
+    background-image:none;
+    background-color: #ECFAA7;
+    color: #6DCB21;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    padding: 8px;
+    text-indent: 10px;
+    }    
+
+.infomgcls
+{
+    color: #6DCB21;
+    }
+    
+.infoerrorcls
+{
+    color:Red;
+    }    
+
+
+div#tabs.jqtransformdone .jqTransformSelectWrapper ul li a
+{
+   font-size:12px;
+    }
+    
+#petrecodelist li , #petimagelist li {padding:0 2px; width:30px; height:39px; float:left; display:inline-block;}    
+
+.btnattachmentdel{display:block;width:30px;height:12px;background-image:url('../img/icon_delete.gif');background-repeat:no-repeat;background-position:center;float:left;}    
+
+.petphotoup{ width:30px; height:28px; list-style:none;}
+.petrecordoup{ width:30px; height:28px;}  
+
+#ctl00_UserProfile_lstv_savedpets_Ul1 {  list-style-type:decimal; width:695px; }
+#ctl00_UserProfile_lstv_savedpets_Ul1 li {padding:2px 0px; width:230px; float:left;}
+#ctl00_UserProfile_lstv_savedpets_Ul1 li a{ font-size:11px;
+	font-weight: bold;
+	text-indent: 10px; text-decoration:none; display:block;padding:0px 0px; }
+#ctl00_UserProfile_lstv_savedpets_Ul1 li a:hover{ font-size:11px;
+	font-weight: bold;
+	text-indent: 10px;background-color: #ECFAA7; }
+	
+.appempty{padding: 2px 20px;font-weight:bold;}	
+
+.cls_fa_list{list-style-type:none; margin:0px;padding:0px;}
+.cls_fa_list li{padding: 5px 20px;}
+.cls_fa_list li.alt-list{background-color:#f7f7f7;}
+.cls_fa_list li:hover{background-color:#f3eaea;}
+.cls_fa_list li .clock{padding:0px 5px;}
+.cls_fa_list li span{line-height:24px;font-size:12px;vertical-align:middle;padding: 0 0 12px;}
+.cls_fa_list li .cancellink{ padding: 0px 10px; float:right;}
+.cls_fa_list li .cancellink img{}
+
+.cls_review_list{list-style-type:none; margin:0px;padding:0px;}
+.cls_review_list li{padding: 5px 20px;}
+.cls_review_list li.alt-list{background-color:#f7f7f7;}
+.cls_review_list li:hover{background-color:#f3eaea;}
+.cls_review_list li .clock{padding:0px 5px 5px;}
+.cls_review_list li span{line-height:36px;font-size:12px;vertical-align:middle;padding: 0 0 24px;}
+.cls_review_list li .cancellink{ padding: 0px 10px; float:right;}
+.cls_review_list li .cancellink img{}
+
+.appreviewform{display:none;}
+
+.cleartitle
+{
+    color: #6DCB21;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    padding: 8px;
+    text-indent: 10px;
+    }
+    
+.chbcontainer .jqTransformCheckboxWrapper{margin-left:10px;}
+.chbcontainer label {line-height: 30px;
+    padding: 5px 0 0 5px; font-size:12px;font-weight:bold;}
+    
+.clsreviewdtails{height: 100px;
+    margin: 5px 0px;
+    width: 655px;}  
+.clsreviewdtails textarea{width:650px;height:80px;}     
+.currntappointment{font-size:12px;font-weight:bold;} 
+
+.ratings{ list-style-type:none;margin-bottom:0px;}
+.ratings li{}
+.ratings li:hover{background-color:#f3eaea;}
+.ratings li a{text-decoration:none;display:block;}
+.ratings li a img{/*padding-top:5px;*/}
+.ratings li span{font-size:12px;font-weight:bold; padding:0px 0px 5px 5px;line-height:25px;vertical-align: top;}
+.msgsend{width:280px !important;}
+
+#ctl00_UserProfile_RequiredFieldValidator4{ line-height: 25px;
+    padding: 5px;}
+   
+
+    
+.boldtwelfont{font-size:12px; font-weight:bold;margin-left:15px;}    
+
+.petdoclist{ list-style-type:none;padding:0px;margin:0px 0px 0px 15px;}
+.petdoclist li{}
+.petdoclist li:hover{background-color:#f3eaea;}
+.petdoclist li .doccheck{}
+.petdoclist li span{line-height: 28px;
+    padding-left: 10px;color: #6B6B6B;
+    font-size: 12px;
+    font-weight: bold;}
+    
+.petphotolist{list-style-type:none; padding:10px;min-height:150px;width:340px;text-align:center;}  
+.petphotolist li{ float: left;
+    height: 150px;
+    margin: 5px;
+    width: 340px;}
+.petphotolist li.current{display:block;}    
+.petphotolist li.lihide{display:none !important;}
+.petphotolist li img.petphotoup {height:150px; width:auto;max-width:340px;}
+
+#pet_photo_navi{ text-align:right; width:340px; padding-right:20px;}
+#pet_photo_navi a{background-color: #6DCB21;
+    display: inline-block;
+    font-size: 12px;
+    height: 15px;
+    margin: 0 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 15px;}
+    
+#pet_photo_navi a:hover{background-color: #ECFAD7;}    
+
+.sharewith{background-color: #EDEDED;
+    display: block;
+    min-height: 350px;
+    
+   
+  /*  width: 360px;*/
+    border:1px solid #d1d1d1;
+    }  
+    
+.profiledialogtxt{ width:175px;}    
+
+
+div#tabs a.jqTransformSelectOpen
+{
+    right:10px !important;
+    }
+    
+.ui-dialog .ui-dialog-titlebar
+{
+    position: absolute;
+    right: 2px;
+    top:3px;
+    z-index: 99999;
+    }    
+    
+
+    
+
+
+ 

@@ -1,0 +1,129 @@
+﻿@font-face {
+    font-family: "VAGRound";
+    src: url(../fonts/VAGROUND.TTF);    
+}
+
+body{
+	margin:0px; padding:0px;	min-height:942px;}
+	
+.green-lable {
+    color: #3F8E01;
+    font-family: "VAGRound";
+    font-size: 16px;
+    text-decoration: none;
+}
+	
+
+.header {
+   width:auto;
+    background-position: center top;
+    background-repeat: repeat-x;
+    height: 90px;
+    padding:0px;
+}
+
+.header .header_content_fullwidth {
+    margin: 0 auto;
+}
+
+
+
+.header .header_content_fullwidth .logo {
+    display: block;
+    float: left;
+    height: 64px;
+    margin: 15px 0 0 20px;
+    width: 304px;
+}
+
+.header .header_content_fullwidth .topmenuwrapper {
+    border: 2px solid #72AC45;
+    float: right;
+    margin: 24px 20px 0 0;
+    padding-right: 5px;
+}
+
+
+.header .header_content_fullwidth ul.topmenu {
+    border: medium none;
+    height: 35px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 0 0 7px;
+}
+
+.header .header_content_fullwidth ul.topmenu li {
+    background-image: url("../img/provider_menu_separator.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left;
+    height: 35px;
+}
+
+.header .header_content_fullwidth ul.topmenu li a {
+    color: #5F5F5F;
+    display: block;
+    float: left;
+    font-family: "VAGRound";
+    margin-left: 7px;
+    padding: 10px 12px 7px 23px;
+    text-decoration: none;
+    width: 100%;
+    font-size: 16px;
+}
+.header .header_content_fullwidth ul.topmenu li:hover, .header .header_content ul.topmenu li.selected{background-color:#ececec;}
+.menusignout {
+    background-image: url("../img/menuicon_signout.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+
+
+#left{width:auto !important;}
+
+.content {
+    background-color: #78B04D;
+    margin: 10px;
+    width: auto;
+}
+
+
+
+.header_navigation{height:60px;margin:10px;background-image:url(../img/header_navi_bg.gif);background-repeat:repeat-x;background-position:center;}
+.header_navigation .leftselectors{float:left;padding:19px 10px;}
+.header_navigation .leftselectors > span {padding-top:5px;}
+.header_navigation .leftselectors span , .header_navigation .leftselectors div{float:left;display:inline-block;}
+.header_navigation .leftselectors .jqTransformSelectWrapper{margin-left:10px;width:200px !important;  background: url("../img/leftselectors_bg.gif") no-repeat scroll left top transparent; }
+
+.header_navigation .leftselectors .jqTransformSelectWrapper a.jqTransformSelectOpen {background: url("../img/leftselectors_bg_right.gif") no-repeat scroll center center transparent;}
+.header_navigation .leftselectors .jqTransformSelectWrapper span{width:178px !important; font-size:13px;padding-top:10px;}
+.header_navigation .leftselectors .jqTransformSelectWrapper ul {max-height: 350px !important;}
+.header_navigation .leftselectors select, .header_navigation .leftselectors .sel {width:200px;}
+
+.header_navigation .right_navigation{float:right;list-style:none;font-family: "VAGRound";color:#535353;font-size:16px;margin:12px 0px 0px;}
+.right_navigation li {display:inline-block;padding:10px 12px;}
+.right_navigation li a{font-family: "VAGRound";color:#535353;font-size:16px;text-decoration:none;}
+
+.right_navigation li.calendar:hover , .right_navigation li.calendarselect{background-image:url(../img/calendar_link_hover.gif); background-repeat:no-repeat;background-position:center;}
+.right_navigation li.staff:hover , .right_navigation li.staffselected{background-image:url(../img/staff_link_hover.gif); background-repeat:no-repeat;background-position:center;}
+.right_navigation li.client:hover , .right_navigation li.clientselect{background-image:url(../img/clients_link_hover.gif); background-repeat:no-repeat;background-position:center;}
+.right_navigation li.pactinfo:hover, .right_navigation li.pactinfoselected{background-image:url(../img/practinfo_link_hover.gif); background-repeat:no-repeat;background-position:center;}
+
+
+
+
+
+.footer {
+    background-image: url("../img/provider_bg_footer.gif");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 86px;
+}
+
+
+
+.hidden {
+    display: none !important;
+}

@@ -1,0 +1,300 @@
+﻿.clsddlpetnames {
+   
+    }
+
+       
+.w150 {
+    width:150px;
+    }
+.w160 {
+    width:160px;
+    }    
+.w175 {
+    width:175px;
+    } 
+    
+.clsdialogBook .jqTransformSelectWrapper ul li a {
+    font-size: 12px;
+}     
+
+.clsdialogBook .bkdiagtitle 
+{
+    
+    }   
+    
+/* -------------
+ * Selects
+ * ------------- */
+.clsdialogBook  .jqTransformSelectWrapper 
+{
+ 
+	position:relative;
+	height: 35px;
+	background: url("../img/input_185.gif") no-repeat top left;
+	float:left;
+	border:none;
+	margin-bottom:0px !important;
+	 width: 187px !important;
+}
+
+.clsdialogBook  .jqTransformSelectWrapper div span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+color:#48A200;
+	float: none;
+	position: absolute;
+	white-space: nowrap;
+	top: 2px;
+	left: 5px;
+	height: 31px;
+	line-height: 15px;
+	padding: 8px 0 0 7px;
+	overflow: hidden;
+	cursor:pointer;
+	/*border: 1px solid #CCCCCC;*/
+/*	border-right: none;*/
+}
+
+.clsdialogBook  .jqTransformSelectWrapper  a.jqTransformSelectOpen {
+	display: block;
+	position: absolute;
+	right: 3px;
+	top: 0px;
+	width: 31px;
+	height: 35px;
+	background: url(img2/bdropdown_new.gif) no-repeat center center;
+	outline: 0px;
+	
+}
+.dropdowndisable a.jqTransformSelectOpen
+{background: url("img2/bdropdown_disabled.gif") no-repeat scroll center center transparent !important;}
+
+.clsdialogBook .jqTransformSelectWrapper ul {
+	position: absolute;
+	width: 43px;
+	top: 33px;
+	left: 0px;
+	list-style: none;
+	background-color: #FFF;
+	border: solid 1px #CCC;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	overflow: auto;
+	
+	z-index:10;
+}
+
+.clsdialogBook  .jqTransformSelectWrapper ul a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	color:#333;
+	background-color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:#48A200;
+	text-indent: 6px;
+}
+
+.clsdialogBook  .jqTransformSelectWrapper ul a.selected {
+	background: #FFFFFF;
+	color: #48A200;
+}
+
+.clsdialogBook  .jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {
+	background:#48A200;
+	color: #fff;
+}   
+
+/* -------------
+ * Inputs
+ * ------------- */
+.clsdialogBook  .jqTransformInputWrapper {
+	background: transparent url(img/input/input_text_left.gif) no-repeat left top;
+	height: 31px;
+	padding: 0px;
+	float:left;
+}
+
+.clsdialogBook .jqTransformInputInner {
+	background: transparent url(img/input/input_text_right.gif) no-repeat top right;
+	padding: 0px;
+	margin: 0px;
+
+
+}
+
+.clsdialogBook .jqTransformInputInner div {
+	height: 31px;
+	margin:0px 0px 0px 8px;
+}
+
+.clsdialogBook .jqTransformInputInner div input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height: 15px;
+	vertical-align: middle;
+	color:#48A200;
+	height: 31px;
+	border: none;
+	padding: 5px 0px 0px 3px;
+	margin: 0px;
+	background:transparent;
+}
+
+/*  IE6 */
+* html .clsdialogBook .jqTransformInputInner div input {
+	padding: 6px 0 0 0;
+	margin: 0 0 0 -8px;
+	height:24px;
+}
+/* Ie7 */
+*+ html .clsdialogBook .jqTransformInputInner div input {
+	padding: 6px 0 0 0;
+	margin-left:-10px;
+	height:24px;
+}
+
+/*hover*/
+.clsdialogBook .jqTransformInputWrapper_hover{ background-position: left -31px ;}
+.clsdialogBook .jqTransformInputWrapper_hover div.jqTransformInputInner{ background-position: right -31px ;}
+
+/*focus*/
+.clsdialogBook .jqTransformInputWrapper_focus{ background-position: left -62px ;}
+.clsdialogBook .jqTransformInputWrapper_focus div.jqTransformInputInner{ background-position: right -62px ;}
+
+
+
+.clsdialogBook .jqTransformSafari .jqTransformInputInner div {
+	position: relative;
+	overflow: hidden;
+	margin:0px 8px;
+}
+.clsdialogBook .jqTransformSafari .jqTransformInputInner div input {
+	background-color: none;
+	position: absolute;
+	top: -10px;
+	left: -2px;
+	height: 42px; 
+	padding-left: 4px;
+}
+
+
+
+/* -------------
+ * Textarea
+ * ------------- */
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-mm textarea{
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.clsdialogBook table.jqTransformTextarea td{
+font-size: 1px;
+line-height: 1px;
+width: 5px;
+height: 5px;
+margin: 0;
+padding: 0;
+}
+.clsdialogBook table.jqTransformTextarea{}
+.clsdialogBook table.jqTransformTextarea tr{
+/*border: 1px solid red;*/
+
+}
+.clsdialogBook table.jqTransformTextarea textarea{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-tl{background: url(img/textarea/textarea_tl.gif) no-repeat top left;}
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-tm{background: url(img/textarea/textarea_tm.gif) repeat-x top left;}
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-tr{background: url(img/textarea/textarea_tr.gif) no-repeat top left;}
+
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-ml{background: url(img/textarea/textarea_ml.gif) repeat-y top left;}
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-mm{background: url(img/textarea/textarea-mm.gif) repeat;}
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-mr{background: url(img/textarea/textarea_mr.gif) repeat-y top left;}
+
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-bl{background: url(img/textarea/textarea_bl.gif) no-repeat top left;}
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-bm{background: url(img/textarea/textarea_bm.gif) repeat-x top left;}
+.clsdialogBook table.jqTransformTextarea td#jqTransformTextarea-br{background: url(img/textarea/textarea_br.gif) no-repeat top left;}
+
+/*hover*/
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-tl{background-position:0px -5px;}
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-tm{background-position:0px -5px;}
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-tr{background-position:0px -5px;}
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-ml{background-position:-5px 0px;}
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-mm{background-image: url(img/textarea/textarea-mm-hover.gif);}
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-mr{background-position:-5px 0px;}
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-bl{background-position:0px -5px;}
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-bm{background-position:0px -5px;}
+.clsdialogBook table.jqTransformTextarea-hover td#jqTransformTextarea-br{background-position:0px -5px;}
+
+/*focus*/
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-tl{background-position:0px -10px;}
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-tm{background-position:0px -10px;}
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-tr{background-position:0px -10px;}
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-ml{background-position:-10px 0px;}
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-mm{background-image: url(img/textarea/textarea-mm-focus.gif);}
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-mr{background-position: -10px 0px;}
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-bl{background-position:0px -10px;}
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-bm{background-position:0px -10px;}
+.clsdialogBook table.jqTransformTextarea-focus td#jqTransformTextarea-br{background-position:0px -10px;}
+
+
+.clsdialogBook table.jqTransformTextarea .jqTransformSafariTextarea div {
+	position: relative;
+	overflow: hidden;
+	border: 0px solid red;
+}
+.clsdialogBook table.jqTransformTextarea .jqTransformSafariTextarea textarea{
+	background: none;
+	position: absolute;
+	top:-10px;
+	left:-10px;
+	padding: 10px 10px 10px 10px;
+	resize: none;
+}
+
+textarea.special-ins
+{
+     height: 75px;
+    width: 620px;
+    }
+    
+.dropdowndisable { background:url('../img/input_185_disabled.gif') no-repeat scroll left top transparent !important;  }
+.dropdownactiv { background:url('../img/input_185.gif') no-repeat scroll left top transparent !important; }     
+.clsdialogBook { padding:20px;  } 
+div.pnl_btn input{float:right; margin-right:5px;}
+.clsdialogBook span.greentext{ }
+.clsPanelLoginRegister {}
+div.clsPanelLoginRegister div div div div{display:block;float:left; width:100%; }
+div.clsPanelLoginRegister div div div div.title {line-height:15px;}
+.visited-before {background-color: #ECFAD7;  display: block; padding:2p 10px;}
+.visited-before h2.title {font-size:13px; margin:0px;}
+.visited-before .jqTransformRadioWrapper{ width:19px;}
+.visited-before ul{list-style:none; padding:0px; margin:2px 0px 0px;}
+.visited-before ul li{ line-height:25px;}
+
+.ui-dialog-title {
+    display: block;
+    float: left;
+    width: 655px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.appbook_prograss{
+       background: none repeat scroll 0 0 #FFFFFF;
+    height: 185px;
+    left: 167px;
+    position: absolute;
+    top: 145px;
+    width: 340px;
+    z-index: 9999;
+    text-align:center;
+    }
+    .appbook_prograss span{width:100%;text-align:center;font-size:18px;}

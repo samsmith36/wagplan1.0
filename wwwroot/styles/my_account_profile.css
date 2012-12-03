@@ -1,0 +1,66 @@
+/* CSS Document */
+
+
+.deftext {
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+color:#333333;
+margin-left: 15px;
+
+}
+
+.regtext {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+margin-left: 5px;
+
+}
+
+
+
+
+.bar {
+position: relative;
+#background-color: #378F1D;
+background-color: #44ad23;
+margin-left: 5px;
+width: 400px;
+height: 25px;
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight: bold;
+text-indent: 10px;
+}
+
+
+.navigBar {
+position: relative;
+background-color: #F58329;
+margin-left: 30px;
+width: 300px;
+height: 25px;
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+font-weight: bold;
+text-indent: 14px;
+}
+
+.ta {
+width: 350px;
+height: 80px;
+}
+
+
+
+a {
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#33851b;
+line-height:20px;
+margin-left: 20px;
+
+}
